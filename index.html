@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Stylesheets go here. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/global.css" />
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="img/etsy.svg" class="img-responsive logo" alt="etsy logo" />
+          <input type="text" id="search" class="search-bar" placeholder="Search for items or shops">
+          <button class="btn search-button" id="buttonSearch" type="button">Search</button>
+      </div>
+      <div class="col-sm-6 text-right">
+        <ul class="list-inline">
+          <li><a href="#" class="nav-bar">Sell on Etsy</a></li>
+          <li><a href="#" class="nav-bar">Register</a></li>
+          <li><a href="#" class="btn nav-bar nav-button">Sign in</a></li>
+          <li><a href="#" id="shopping-cart"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 header-bottom">
+        <ul class="list-inline section-bar">
+            <li><a href="#" class="section-font">Clothing & Accessories</a></li>
+            <li><a href="#" class="section-font">Jewelry</a></li>
+            <li><a href="#" class="section-font">Craft Supplies & Tools</a></li>
+            <li><a href="#" class="section-font">Weddings</a></li>
+            <li><a href="#" class="section-font">Entertainment</a></li>
+            <li><a href="#" class="section-font">Home & Living</a></li>
+            <li><a href="#" class="section-font">Kids & Baby</a></li>
+            <li><a href="#" class="section-font">Vintage</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </header>
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2 text-left">
+        <div class="left-column">
+          <p class="column_header">Show results for:</p>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p class="column_header">All categories</p>
+              <ul class="list-unstyled">
+                <li><a href="#" class="category-list">Toys & Games</a></li>
+                <li><a href="#" class="category-list">Art & Collectibles</a></li>
+                <li><a href="#" class="category-list">Craft Supplies & Tools</a></li>
+                <li><a href="#" class="category-list">Home & Living</a></li>
+                <li><a href="#" class="category-list">Books, Movies & Music</a></li>
+                <li><a href="#" class="category-list">Paper & Party Supplies</a></li>
+                <li><a href="#" class="category-list">Accessories</a></li>
+                <li><a href="#" class="category-list">Clothing</a></li>
+                <li><a href="#" class="category-list">Electronics & Accessories</a></li>
+                <li><a href="#" class="category-list">Jewelry</a></li>
+                <li><a href="#" class="category-list">Weddings</a></li>
+                <li><a href="#" class="category-list">Bags & Purses</a></li>
+              </ul>
+            </div>
+          </div>
+          <p class="column_header">Refine your search</p>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p class="column_header">Shop location</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    Anywhere
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    United States
+                  </label>
+                </div>
+                <a type="radio" href="#">Choose a custom location</a>
+
+              <div class="border-bottom"></div>
+
+              <p class="column_header">Item type</p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  All items
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Handmade
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option3">
+                  Vintage
+                </label>
+              </div>
+
+              <div class="border-bottom"></div>
+
+              <p class="column_header">Price ($)</p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  Any price
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Under $10
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option3">
+                   $10 to $20
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option4">
+                   $20 to $30
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option5">
+                   Over $30
+                </label>
+              </div>
+
+              <input type="text" class="form-control price-box" placeholder="Low" />
+              to
+              <input type="text" class="form-control price-box" placeholder="High" />
+              <button class="btn btn-default price-box-btn" type="button"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+
+              <div class="border-bottom"></div>
+
+              <p class="column_header">Filter by color</p>
+              <ul class="list-inline">
+                <li><button class="color-buttons" id="one" ></button></li>
+                <li><button class="color-buttons" id="two" ></button></li>
+                <li><button class="color-buttons" id="three" ></button></li>
+                <li><button class="color-buttons" id="four" ></button></li>
+                <li><button class="color-buttons" id="five" ></button></li>
+                <li><button class="color-buttons" id="six" ></button></li>
+                <li><button class="color-buttons" id="seven" ></button></li>
+                <li><button class="color-buttons" id="eight" ></button></li>
+
+              </ul>
+
+              <div class="border-bottom"></div>
+
+              <p class="column_header">Ordering options</p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  Accepts Etsy gift cards
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Customizable
+                </label>
+              </div>
+
+              <div class="border-bottom"></div>
+
+              <div class="form-group">
+                <label for="country" class="column_header">Ship to</label>
+                  <select id="country" name="country" class="form-control" required>
+                        <option>Country</option>
+                        <option value="AF">Afghanistan</option>
+                        <option value="AX">Åland Islands</option>
+                        <option value="AL">Albania</option>
+                        <option value="DZ">Algeria</option>
+                        <option value="AS">American Samoa</option>
+                        <option value="AD">Andorra</option>
+                        <option value="AO">Angola</option>
+                        <option value="AI">Anguilla</option>
+                        <option value="AQ">Antarctica</option>
+                        <option value="AG">Antigua and Barbuda</option>
+                        <option value="AR">Argentina</option>
+                        <option value="AM">Armenia</option>
+                        <option value="AW">Aruba</option>
+                        <option value="AU">Australia</option>
+                        <option value="AT">Austria</option>
+                        <option value="AZ">Azerbaijan</option>
+                        <option value="BS">Bahamas</option>
+                        <option value="BH">Bahrain</option>
+                        <option value="BD">Bangladesh</option>
+                        <option value="BB">Barbados</option>
+                        <option value="BY">Belarus</option>
+                        <option value="BE">Belgium</option>
+                        <option value="BZ">Belize</option>
+                        <option value="BJ">Benin</option>
+                        <option value="BM">Bermuda</option>
+                        <option value="BT">Bhutan</option>
+                        <option value="BO">Bolivia, Plurinational State of</option>
+                        <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                        <option value="BA">Bosnia and Herzegovina</option>
+                        <option value="BW">Botswana</option>
+                        <option value="BV">Bouvet Island</option>
+                        <option value="BR">Brazil</option>
+                        <option value="IO">British Indian Ocean Territory</option>
+                        <option value="BN">Brunei Darussalam</option>
+                        <option value="BG">Bulgaria</option>
+                        <option value="BF">Burkina Faso</option>
+                        <option value="BI">Burundi</option>
+                        <option value="KH">Cambodia</option>
+                        <option value="CM">Cameroon</option>
+                        <option value="CA">Canada</option>
+                        <option value="CV">Cape Verde</option>
+                        <option value="KY">Cayman Islands</option>
+                        <option value="CF">Central African Republic</option>
+                        <option value="TD">Chad</option>
+                        <option value="CL">Chile</option>
+                        <option value="CN">China</option>
+                        <option value="CX">Christmas Island</option>
+                        <option value="CC">Cocos (Keeling) Islands</option>
+                        <option value="CO">Colombia</option>
+                        <option value="KM">Comoros</option>
+                        <option value="CG">Congo</option>
+                        <option value="CD">Congo, the Democratic Republic of the</option>
+                        <option value="CK">Cook Islands</option>
+                        <option value="CR">Costa Rica</option>
+                        <option value="CI">Côte d'Ivoire</option>
+                        <option value="HR">Croatia</option>
+                        <option value="CU">Cuba</option>
+                        <option value="CW">Curaçao</option>
+                        <option value="CY">Cyprus</option>
+                        <option value="CZ">Czech Republic</option>
+                        <option value="DK">Denmark</option>
+                        <option value="DJ">Djibouti</option>
+                        <option value="DM">Dominica</option>
+                        <option value="DO">Dominican Republic</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="EG">Egypt</option>
+                        <option value="SV">El Salvador</option>
+                        <option value="GQ">Equatorial Guinea</option>
+                        <option value="ER">Eritrea</option>
+                        <option value="EE">Estonia</option>
+                        <option value="ET">Ethiopia</option>
+                        <option value="FK">Falkland Islands (Malvinas)</option>
+                        <option value="FO">Faroe Islands</option>
+                        <option value="FJ">Fiji</option>
+                        <option value="FI">Finland</option>
+                        <option value="FR">France</option>
+                        <option value="GF">French Guiana</option>
+                        <option value="PF">French Polynesia</option>
+                        <option value="TF">French Southern Territories</option>
+                        <option value="GA">Gabon</option>
+                        <option value="GM">Gambia</option>
+                        <option value="GE">Georgia</option>
+                        <option value="DE">Germany</option>
+                        <option value="GH">Ghana</option>
+                        <option value="GI">Gibraltar</option>
+                        <option value="GR">Greece</option>
+                        <option value="GL">Greenland</option>
+                        <option value="GD">Grenada</option>
+                        <option value="GP">Guadeloupe</option>
+                        <option value="GU">Guam</option>
+                        <option value="GT">Guatemala</option>
+                        <option value="GG">Guernsey</option>
+                        <option value="GN">Guinea</option>
+                        <option value="GW">Guinea-Bissau</option>
+                        <option value="GY">Guyana</option>
+                        <option value="HT">Haiti</option>
+                        <option value="HM">Heard Island and McDonald Islands</option>
+                        <option value="VA">Holy See (Vatican City State)</option>
+                        <option value="HN">Honduras</option>
+                        <option value="HK">Hong Kong</option>
+                        <option value="HU">Hungary</option>
+                        <option value="IS">Iceland</option>
+                        <option value="IN">India</option>
+                        <option value="ID">Indonesia</option>
+                        <option value="IR">Iran, Islamic Republic of</option>
+                        <option value="IQ">Iraq</option>
+                        <option value="IE">Ireland</option>
+                        <option value="IM">Isle of Man</option>
+                        <option value="IL">Israel</option>
+                        <option value="IT">Italy</option>
+                        <option value="JM">Jamaica</option>
+                        <option value="JP">Japan</option>
+                        <option value="JE">Jersey</option>
+                        <option value="JO">Jordan</option>
+                        <option value="KZ">Kazakhstan</option>
+                        <option value="KE">Kenya</option>
+                        <option value="KI">Kiribati</option>
+                        <option value="KP">Korea, Democratic People's Republic of</option>
+                        <option value="KR">Korea, Republic of</option>
+                        <option value="KW">Kuwait</option>
+                        <option value="KG">Kyrgyzstan</option>
+                        <option value="LA">Lao People's Democratic Republic</option>
+                        <option value="LV">Latvia</option>
+                        <option value="LB">Lebanon</option>
+                        <option value="LS">Lesotho</option>
+                        <option value="LR">Liberia</option>
+                        <option value="LY">Libya</option>
+                        <option value="LI">Liechtenstein</option>
+                        <option value="LT">Lithuania</option>
+                        <option value="LU">Luxembourg</option>
+                        <option value="MO">Macao</option>
+                        <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                        <option value="MG">Madagascar</option>
+                        <option value="MW">Malawi</option>
+                        <option value="MY">Malaysia</option>
+                        <option value="MV">Maldives</option>
+                        <option value="ML">Mali</option>
+                        <option value="MT">Malta</option>
+                        <option value="MH">Marshall Islands</option>
+                        <option value="MQ">Martinique</option>
+                        <option value="MR">Mauritania</option>
+                        <option value="MU">Mauritius</option>
+                        <option value="YT">Mayotte</option>
+                        <option value="MX">Mexico</option>
+                        <option value="FM">Micronesia, Federated States of</option>
+                        <option value="MD">Moldova, Republic of</option>
+                        <option value="MC">Monaco</option>
+                        <option value="MN">Mongolia</option>
+                        <option value="ME">Montenegro</option>
+                        <option value="MS">Montserrat</option>
+                        <option value="MA">Morocco</option>
+                        <option value="MZ">Mozambique</option>
+                        <option value="MM">Myanmar</option>
+                        <option value="NA">Namibia</option>
+                        <option value="NR">Nauru</option>
+                        <option value="NP">Nepal</option>
+                        <option value="NL">Netherlands</option>
+                        <option value="NC">New Caledonia</option>
+                        <option value="NZ">New Zealand</option>
+                        <option value="NI">Nicaragua</option>
+                        <option value="NE">Niger</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="NU">Niue</option>
+                        <option value="NF">Norfolk Island</option>
+                        <option value="MP">Northern Mariana Islands</option>
+                        <option value="NO">Norway</option>
+                        <option value="OM">Oman</option>
+                        <option value="PK">Pakistan</option>
+                        <option value="PW">Palau</option>
+                        <option value="PS">Palestinian Territory, Occupied</option>
+                        <option value="PA">Panama</option>
+                        <option value="PG">Papua New Guinea</option>
+                        <option value="PY">Paraguay</option>
+                        <option value="PE">Peru</option>
+                        <option value="PH">Philippines</option>
+                        <option value="PN">Pitcairn</option>
+                        <option value="PL">Poland</option>
+                        <option value="PT">Portugal</option>
+                        <option value="PR">Puerto Rico</option>
+                        <option value="QA">Qatar</option>
+                        <option value="RE">Réunion</option>
+                        <option value="RO">Romania</option>
+                        <option value="RU">Russian Federation</option>
+                        <option value="RW">Rwanda</option>
+                        <option value="BL">Saint Barthélemy</option>
+                        <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                        <option value="KN">Saint Kitts and Nevis</option>
+                        <option value="LC">Saint Lucia</option>
+                        <option value="MF">Saint Martin (French part)</option>
+                        <option value="PM">Saint Pierre and Miquelon</option>
+                        <option value="VC">Saint Vincent and the Grenadines</option>
+                        <option value="WS">Samoa</option>
+                        <option value="SM">San Marino</option>
+                        <option value="ST">Sao Tome and Principe</option>
+                        <option value="SA">Saudi Arabia</option>
+                        <option value="SN">Senegal</option>
+                        <option value="RS">Serbia</option>
+                        <option value="SC">Seychelles</option>
+                        <option value="SL">Sierra Leone</option>
+                        <option value="SG">Singapore</option>
+                        <option value="SX">Sint Maarten (Dutch part)</option>
+                        <option value="SK">Slovakia</option>
+                        <option value="SI">Slovenia</option>
+                        <option value="SB">Solomon Islands</option>
+                        <option value="SO">Somalia</option>
+                        <option value="ZA">South Africa</option>
+                        <option value="GS">South Georgia and the South Sandwich Islands</option>
+                        <option value="SS">South Sudan</option>
+                        <option value="ES">Spain</option>
+                        <option value="LK">Sri Lanka</option>
+                        <option value="SD">Sudan</option>
+                        <option value="SR">Suriname</option>
+                        <option value="SJ">Svalbard and Jan Mayen</option>
+                        <option value="SZ">Swaziland</option>
+                        <option value="SE">Sweden</option>
+                        <option value="CH">Switzerland</option>
+                        <option value="SY">Syrian Arab Republic</option>
+                        <option value="TW">Taiwan, Province of China</option>
+                        <option value="TJ">Tajikistan</option>
+                        <option value="TZ">Tanzania, United Republic of</option>
+                        <option value="TH">Thailand</option>
+                        <option value="TL">Timor-Leste</option>
+                        <option value="TG">Togo</option>
+                        <option value="TK">Tokelau</option>
+                        <option value="TO">Tonga</option>
+                        <option value="TT">Trinidad and Tobago</option>
+                        <option value="TN">Tunisia</option>
+                        <option value="TR">Turkey</option>
+                        <option value="TM">Turkmenistan</option>
+                        <option value="TC">Turks and Caicos Islands</option>
+                        <option value="TV">Tuvalu</option>
+                        <option value="UG">Uganda</option>
+                        <option value="UA">Ukraine</option>
+                        <option value="AE">United Arab Emirates</option>
+                        <option value="GB">United Kingdom</option>
+                        <option value="US">United States</option>
+                        <option value="UM">United States Minor Outlying Islands</option>
+                        <option value="UY">Uruguay</option>
+                        <option value="UZ">Uzbekistan</option>
+                        <option value="VU">Vanuatu</option>
+                        <option value="VE">Venezuela, Bolivarian Republic of</option>
+                        <option value="VN">Viet Nam</option>
+                        <option value="VG">Virgin Islands, British</option>
+                        <option value="VI">Virgin Islands, U.S.</option>
+                        <option value="WF">Wallis and Futuna</option>
+                        <option value="EH">Western Sahara</option>
+                        <option value="YE">Yemen</option>
+                        <option value="ZM">Zambia</option>
+                        <option value="ZW">Zimbabwe</option>
+                    </select>
+              </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-10">
+        <p class="right_column">
+          Did you mean to the shop <a href="">boardgames</a>?<br />
+
+          <a href="">All categories</a>
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+           <span class="bold">"board games"</span>
+           (30,980 Results)
+        </p>
+        <div id="searchResults" class="row">
+        </div>
+        <p class="right_column">
+          Looking for shops?
+          <a href="">boardgames</a>, <a href="">BoardGamesFactory</a>, <a href="">BoardGameShowcase</a>. <a href="">See more</a>.
+        </p>
+      <nav aria-label="search results pages">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span class="page_buttons glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-buttons page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">6</a></li>
+          <li class="page-item"><a class="page-link" href="#">7</a></li>
+          <li class="page-item"><a class="page-link" href="#">8</a></li>
+          <li class="page-item"><a class="page-link" href="#">...</a></li>
+          <li class="page-item"><a class="page-link" href="#">250</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span class="page_buttons glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 text-center border-bottom">
+        Get top trends and fresh editors' picks in your inbox with Etsy Finds.<br />
+        <input type="text" class="email" placeholder="Enter your email">
+          <button class="btn subscribe_button" type="button">Subscribe</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="footer_container footer_font">
+          <ul class="list-unstyled col_one">
+            <li><h5>Turn your passion into a <br />
+              business</h5></li>
+            <li><a href="#" alt="open a shop button"><button class="btn open_button">Open a Shop</button></a></li>
+            <li><h5>Sell on Etsy</h5></li>
+            <li><a href="#" alt="open a shop link">Open a shop</a></li>
+            <li><a href="#" alt="seller handbook">Seller handbook</a></li>
+            <li><a href="#" alt="credit card reader">Etsy credit card reader</a></li>
+            <li><a href="#" alt="manufacturing">Manufacturing</a></li>
+          </ul>
+
+          <ul class="list-unstyled col_two">
+            <li><h5>Join the community</h5></li>
+            <li><a href="#" alt="teams">Teams</a></li>
+            <li><a href="#" alt="forums">Forums</a></li>
+            <li><a href="#" alt="upcoming events">Upcoming events</a></li>
+            <li><a href="#" alt="affiliates">Affiliates</a></li>
+            <li><a href="#" alt="etsy local">Etsy Local</a></li>
+          </ul>
+
+          <ul class="list-unstyled col_three">
+            <li><h5>Discover and shop</h5></li>
+            <li><a href="#" alt="giftcard">Gift cards</a></li>
+            <li><a href="#" alt="blog">Blog</a></li>
+            <li><a href="#" alt="mobile apps">Mobile apps</a></li>
+            <li><a href="#" alt="gift registries">Gift registries</a></li>
+            <li><a href="#" alt="wholesale">Wholesale</a></li>
+            <li><a href="#" alt="search">Search</a></li>
+            <li><a href="#" alt="editor's picks">Editor's picks</a></li>
+          </ul>
+
+          <ul class="list-unstyled col_four">
+            <li><h5>Get to know us</h5></li>
+            <li><a href="#" alt="about">About</a></li>
+            <li><a href="#" alt="policies">Policies</a></li>
+            <li><a href="#" alt="careers">Careers</a></li>
+            <li><a href="#" alt="press">Press</a></li>
+            <li><a href="#" alt="developers">Developers</a></li>
+            <li><a href="#" alt="investors">Investors</a></li>
+          </ul>
+
+          <ul class="list-unstyled col_five">
+            <li><h5>Follow Etsy</h5></li>
+            <li><a href="https://www.facebook.com/Etsy" alt="facebook link"><i class="fa fa-facebook-official" aria-hidden="true"></i>  Facebook</a></li>
+            <li><a href="https://twitter.com/etsy" alt="twitter link"><i class="fa fa-twitter-square" aria-hidden="true"></i>  Twitter</a></li>
+            <li><a href="https://www.pinterest.com/etsy/" alt="pinterest link"><i class="fa fa-pinterest-square" aria-hidden="true"></i>  Pinterest</a></li>
+            <li><a href="https://www.instagram.com/etsy/" alt="instagram link"><i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</a></li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <button class="btn btn-default country_button">
+              <img src="img/united-states-circle-512.png" alt="county flag" class="flag" />
+              <p>United States | English (US) | $ (USD)</p>
+            </button>
+          </div>
+          <div class="col-sm-6 text-right">
+            <ul class="list-unstyled list-inline footer_font">
+              <li class="text-muted">© 2016 Etsy, Inc.</li>
+              <li><a href="https://www.etsy.com/legal/?ref=ftr" alt="legal">Legal</a></li>
+              <li><a href="https://www.etsy.com/legal/privacy/?ref=ftr" alt="privacy">Privacy</a></li>
+              <li><a href="https://www.etsy.com/legal/policy/cookies-tracking-technologies/44797645975?ref=ftr" alt="interests based ads">Interest-based-ads</a></li>
+              <li><a href="https://www.etsy.com/help/?ref=ftr" alt="help button"><button class="btn btn-default help_button">Help</button></a></li>
+            </ul>
+          </div>
+        </div><br /><br />
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+  <!-- Scripts go here. -->
+  <script src="https://use.fontawesome.com/3de856fcbb.js"></script>
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+  <script type="text/javascript" src="js/global.js"></script>
+</body>
+</html>

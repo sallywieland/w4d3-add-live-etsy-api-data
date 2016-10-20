@@ -1,0 +1,353 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #f5f5f1;
+}
+
+header {
+  background-color: white;
+}
+
+header .logo {
+  height: 75px;
+  width: 75px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+header .search-bar {
+  display: inline-block;
+  width: 400px;
+  height: 34px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border-radius: 3px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid rgba(80, 80, 80, 0.31);
+}
+
+header .search-button {
+  margin-left: -15px;
+  margin-bottom: 3px;
+  width: 75px;
+  background-color: #34ABC4;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px solid rgba(80, 80, 80, 0.31);
+}
+
+header .search-button:hover {
+  background-color: #58bdd3;
+  color: white;
+}
+
+header ul {
+  margin-top: 15px;
+  margin-right: 25px;
+}
+
+header .nav-bar {
+  color: #0192B5;
+  font-size: 15px;
+}
+
+header .nav-button {
+  border: 1px solid #0192B5;
+}
+
+header .nav-button:hover {
+  color: #0192B5;
+  background-color: #e9fbff;
+}
+
+header #shopping-cart {
+  color: #666666;
+  text-align: center;
+  border-left: 1px solid #666666;
+  padding-left: 10px;
+}
+
+header #shopping-cart:hover {
+  color: black;
+}
+
+header .header-bottom {
+  border: 1px solid rgba(205, 205, 205, 0.61);
+  width: 100%;
+  padding: 0;
+  padding-bottom: 5px;
+  box-shadow: 1px 1px 1px rgba(136, 136, 136, 0.38);
+}
+
+header .section-bar {
+  margin-left: 40px;
+}
+
+header .section-bar .section-font {
+  color: #777780;
+  font-size: 15px;
+}
+
+section {
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section .left-column {
+  font-size: 12px;
+  color: #0192B5;
+}
+
+section .left-column a {
+  color: #0192B5;
+}
+
+section .column_header {
+  color: black;
+  font-weight: bold;
+}
+
+section .category-list {
+  padding-left: 10px;
+  line-height: 25px;
+}
+
+section .border-bottom {
+  border-bottom: 1px solid rgba(71, 71, 71, 0.27);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section .price-box {
+  width: 55px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+section .price-box-btn {
+  width: 40px;
+  text-align: center;
+}
+
+section .color-buttons {
+  width: 19px;
+  height: 19px;
+  border-radius: 2px;
+  border: 1px solid rgba(80, 80, 80, 0.31);
+  margin-left: -5px;
+  margin-right: -5px;
+  box-shadow: none;
+}
+
+section #one {
+  background-color: #F40B32;
+}
+
+section #two {
+  background-color: #FF7F00;
+}
+
+section #three {
+  background-color: #F3CC0C;
+}
+
+section #four {
+  background-color: #0AC20A;
+}
+
+section #five {
+  background-color: #0CCCF3;
+}
+
+section #six {
+  background-color: #A60CF3;
+}
+
+section #seven {
+  background-color: black;
+}
+
+section #eight {
+  background-color: white;
+}
+
+section .right_column {
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 10px;
+}
+
+section .right_column a {
+  color: #0192B5;
+}
+
+section .right_column .bold {
+  font-weight: bold;
+}
+
+section .card {
+  background: white;
+  margin: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+section .card img {
+  margin-bottom: 15px;
+}
+
+section .card span {
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+section .card_img {
+  padding: 0;
+}
+
+section .pagination > li > a, section .pagination > li > span {
+  color: black;
+  font-weight: bold;
+}
+
+section .pagination > li > a:hover, section .pagination > li > span:hover {
+  color: black;
+}
+
+section .pagination > .active > a, section .pagination > .active > a:focus, section .pagination > .active > a:hover, section .pagination > .active > span, section .pagination > .active > span:focus, section .pagination > .active > span:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid rgba(80, 80, 80, 0.31);
+}
+
+section .pagination > li:last-child > a, section .pagination > li:last-child > span {
+  border-radius: 0;
+  color: black;
+}
+
+section .pagination > li:first-child > a, section .pagination > li:first-child > span {
+  border-radius: 0;
+  color: black;
+}
+
+footer .email {
+  display: inline-block;
+  width: 400px;
+  height: 34px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid rgba(80, 80, 80, 0.31);
+}
+
+footer .subscribe_button {
+  margin-left: -15px;
+  margin-bottom: 3px;
+  width: 100px;
+  background-color: #34ABC4;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px solid rgba(80, 80, 80, 0.31);
+}
+
+footer .subscribe_button:hover {
+  background-color: #58bdd3;
+  color: white;
+}
+
+footer .border-bottom {
+  border-bottom: 1px solid rgba(71, 71, 71, 0.27);
+}
+
+footer .footer_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+footer .footer_container .col_one, footer .footer_container .col_two, footer .footer_container .col_three, footer .footer_container .col_four, footer .footer_container .col_five {
+  flex: 1;
+  padding-left: 15px;
+}
+
+footer .footer_font {
+  line-height: 25px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+footer .open_button {
+  border: 1px solid #34ABC4;
+  background-color: #34ABC4;
+  color: white;
+  font-size: 12px;
+}
+
+footer .open_button:hover {
+  background-color: #58bdd3;
+  color: white;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer .country_button {
+  font-size: 12px;
+  border: 1px solid rgba(80, 80, 80, 0.31);
+}
+
+footer .country_button:hover {
+  background-color: white;
+  border: 1px solid rgba(80, 80, 80, 0.43);
+}
+
+footer .help_button {
+  font-size: 12px;
+  width: 100px;
+}
+
+footer .flag {
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+}
+
+footer p {
+  display: inline-block;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
