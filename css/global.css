@@ -21,7 +21,7 @@ header .logo {
   display: inline-block;
 }
 
-header .search-bar {
+header .search_bar {
   display: inline-block;
   width: 400px;
   height: 34px;
@@ -33,7 +33,7 @@ header .search-bar {
   border: 1px solid rgba(80, 80, 80, 0.31);
 }
 
-header .search-button {
+header .search_button {
   margin-left: -15px;
   margin-bottom: 3px;
   width: 75px;
@@ -46,7 +46,7 @@ header .search-button {
   border: 1px solid rgba(80, 80, 80, 0.31);
 }
 
-header .search-button:hover {
+header .search_button:hover {
   background-color: #58bdd3;
   color: white;
 }
@@ -56,16 +56,16 @@ header ul {
   margin-right: 25px;
 }
 
-header .nav-bar {
+header .nav_bar {
   color: #0192B5;
   font-size: 15px;
 }
 
-header .nav-button {
+header .nav_button {
   border: 1px solid #0192B5;
 }
 
-header .nav-button:hover {
+header .nav_button:hover {
   color: #0192B5;
   background-color: #e9fbff;
 }
@@ -81,7 +81,7 @@ header #shopping-cart:hover {
   color: black;
 }
 
-header .header-bottom {
+header .header_bottom {
   border: 1px solid rgba(205, 205, 205, 0.61);
   width: 100%;
   padding: 0;
@@ -89,11 +89,11 @@ header .header-bottom {
   box-shadow: 1px 1px 1px rgba(136, 136, 136, 0.38);
 }
 
-header .section-bar {
+header .section_bar {
   margin-left: 40px;
 }
 
-header .section-bar .section-font {
+header .section_bar .section_font {
   color: #777780;
   font-size: 15px;
 }
@@ -104,12 +104,12 @@ section {
   padding-right: 10px;
 }
 
-section .left-column {
+section .left_column {
   font-size: 12px;
   color: #0192B5;
 }
 
-section .left-column a {
+section .left_column a {
   color: #0192B5;
 }
 
@@ -118,29 +118,29 @@ section .column_header {
   font-weight: bold;
 }
 
-section .category-list {
+section .category_list {
   padding-left: 10px;
   line-height: 25px;
 }
 
-section .border-bottom {
+section .border_bottom {
   border-bottom: 1px solid rgba(71, 71, 71, 0.27);
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-section .price-box {
+section .price_box {
   width: 55px;
   display: inline-block;
   font-size: 13px;
 }
 
-section .price-box-btn {
+section .price_box_btn {
   width: 40px;
   text-align: center;
 }
 
-section .color-buttons {
+section .color_buttons {
   width: 19px;
   height: 19px;
   border-radius: 2px;
@@ -279,7 +279,7 @@ footer .subscribe_button:hover {
   color: white;
 }
 
-footer .border-bottom {
+footer .border_bottom {
   border-bottom: 1px solid rgba(71, 71, 71, 0.27);
 }
 
